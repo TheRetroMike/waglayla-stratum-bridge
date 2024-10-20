@@ -7,7 +7,7 @@ stratum_port: :5555
 # For a list of public nodes, run `nslookup mainnet-dnsseed.daglabs-dev.com`
 # uncomment for to use a public node
 
-waglayla_address: localhost:12110
+waglayla_address: :12110
 
 # min_share_diff: only accept shares of the specified difficulty (or higher) from
 # the miner(s).  Higher values will reduce the number of shares submitted, thereby
@@ -69,7 +69,7 @@ extranonce_size: 0
 print_stats: true
 
 # log_to_file: if true logs will be written to a file local to the executable
-log_to_file: true
+log_to_file: false
 
 # prom_port: if this is specified prometheus will serve stats on the port provided
 # see readme for summary on how to get prom up and running using docker
